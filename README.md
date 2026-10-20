@@ -10,6 +10,8 @@ https://biblewrite.github.io/open-bibles/translations/eng-kjv2006/books/43-JHN.j
 
 That URL is served with `Access-Control-Allow-Origin: *`, so you can fetch it straight from a browser.
 
+There is also a reader at **[biblewrite.github.io/open-bibles](https://biblewrite.github.io/open-bibles/)** — two translations side by side, light / sepia / dark, adjustable type, search, and click-to-copy with the reference. No account, no tracking, nothing stored but your own settings.
+
 ---
 
 ## Using it
