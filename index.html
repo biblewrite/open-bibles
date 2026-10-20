@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Bibles</title>
+<meta name="description" content="36 Bible translations in 32 languages as clean JSON, free to fetch.">
+<style>
+  :root{
+    --bg:#fbfbfd; --panel:#fff; --line:#e6e6ec; --ink:#16161d; --muted:#6b6b7b;
+    --accent:#3b5bdb; --accent-soft:#eef2ff; --code:#f4f4f8;
+  }
+  :root:not([data-theme="light"]){ @media (prefers-color-scheme:dark){
+    --bg:#0f0f14; --panel:#17171f; --line:#2a2a36; --ink:#f0f0f5; --muted:#9a9aae;
+    --accent:#8ea2ff; --accent-soft:#1b1f3a; --code:#1c1c26;
+  }}
+  :root[data-theme="dark"]{
+    --bg:#0f0f14; --panel:#17171f; --line:#2a2a36; --ink:#f0f0f5; --muted:#9a9aae;
+    --accent:#8ea2ff; --accent-soft:#1b1f3a; --code:#1c1c26;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+  .wrap{max-width:860px;margin:0 auto;padding:0 16px}
+  header{border-bottom:1px solid var(--line);background:var(--panel)}
+  header .wrap{padding-top:28px;padding-bottom:24px}
+  h1{margin:0 0 6px;font-size:26px;letter-spacing:-.02em}
+  .sub{color:var(--muted);font-size:15px;margin:0}
+  .stats{margin-top:14px;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--muted)}
+  .stats b{color:var(--ink);font-variant-numeric:tabular-nums}
+
+  .controls{position:sticky;top:0;z-index:5;background:var(--panel);
+    border-bottom:1px solid var(--line);padding:12px 0}
+  .controls .wrap{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  select{appearance:none;background:var(--bg);color:var(--ink);border:1px solid var(--line);
+    border-radius:9px;padding:9px 30px 9px 11px;font-size:14px;font-family:inherit;
+    max-width:100%;cursor:pointer;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%236b6b7b' stroke-width='1.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;background-position:right 11px center}
+  select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+  .nav{margin-left:auto;display:flex;gap:6px}
+  button{background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:9px;
+    padding:9px 13px;font-size:14px;font-family:inherit;cursor:pointer}
+  button:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
+  button:disabled{opacity:.4;cursor:default}
+
+  main{padding:30px 0 70px}
+  .ref{font-size:13px;color:var(--muted);margin-bottom:6px}
+  h2{margin:0 0 22px;font-size:30px;letter-spacing:-.02em}
+  .verses{font-family:ui-serif,Georgia,"Times New Roman",serif;font-size:19px;line-height:1.85}
+  .v{margin:0 0 12px}
+  .n{color:var(--accent);font:600 12px/1 -apple-system,sans-serif;
+    vertical-align:super;margin-inline-end:5px;font-variant-numeric:tabular-nums}
+  [dir="rtl"] .verses{font-size:21px;line-height:2}
+  .note{color:var(--muted);font-size:14px;padding:12px 14px;background:var(--accent-soft);
+    border-radius:10px;margin-bottom:20px}
+
+  .api{border-top:1px solid var(--line);background:var(--panel);padding:34px 0}
+  .api h3{margin:0 0 4px;font-size:17px}
+  .api p{color:var(--muted);font-size:14px;margin:0 0 16px}
+  pre{background:var(--code);border:1px solid var(--line);border-radius:10px;
+    padding:14px;overflow:auto;font-size:13px;line-height:1.55;margin:0 0 14px}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  a{color:var(--accent)}
+  footer{padding:26px 0 40px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Open Bibles</h1>
+    <p class="sub">Public-domain and freely redistributable Bible translations, as JSON you can fetch.</p>
+    <div class="stats" id="stats"><span>loading…</span></div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <select id="translation" aria-label="Translation"></select>
+    <select id="book" aria-label="Book"></select>
+    <select id="chapter" aria-label="Chapter"></select>
+    <span class="nav">
+      <button id="prev" aria-label="Previous chapter">&larr;</button>
+      <button id="next" aria-label="Next chapter">&rarr;</button>
+    </span>
+  </div>
+</div>
+
+<main class="wrap">
+  <div id="gap" class="note" hidden></div>
+  <p class="ref" id="ref"></p>
+  <h2 id="heading">…</h2>
+  <div class="verses" id="verses"></div>
+</main>
+
+<section class="api">
+  <div class="wrap">
+    <h3>Use it as an API</h3>
+    <p>Every file is served with <code>Access-Control-Allow-Origin: *</code>, so fetch it straight from the browser. No key, no rate limit.</p>
+<pre><code>// one book
+const john = await (await fetch(
+  '<span id="origin"></span>/translations/eng-kjv2006/books/43-JHN.json'
+)).json();
+
+john.chapters.find(c =&gt; c.chapter === 3)
+            .verses.find(v =&gt; v.verse === 16).text;
+
+// what exists
+const catalog = await (await fetch('<span id="origin2"></span>/catalog.json')).json();
+catalog.translations.filter(t =&gt; t.language === 'Telugu');</code></pre>
+    <p>Books are numbered by canonical order — <code>01-GEN</code> through <code>66-REV</code>. Per-translation details, including the publisher's own copyright notice, are in <code>translations/&lt;id&gt;/meta.json</code>.</p>
+  </div>
+</section>
+
+<footer class="wrap">
+  Texts from <a href="https://ebible.org/">eBible.org</a>. Each translation keeps its own licence —
+  17 are public domain, the rest are copyrighted but published as redistributable.
+  This site relicenses nothing. <a href="https://github.com/biblewrite/open-bibles">Source</a>.
+</footer>
+
+<script>
+const $ = id => document.getElementById(id);
+const BASE = location.pathname.replace(/\/[^/]*$/, '');
+let catalog = null, meta = null, book = null;
+
+const num = n => n.toLocaleString();
+
+async function boot() {
+  catalog = await (await fetch(`${BASE}/catalog.json`)).json();
+  const c = catalog.counts;
+  $('stats').innerHTML =
+    `<span><b>${num(c.translations)}</b> translations</span>` +
+    `<span><b>${num(c.languages)}</b> languages</span>` +
+    `<span><b>${num(c.verses)}</b> verses</span>`;
+  for (const o of [$('origin'), $('origin2')]) o.textContent = location.origin + BASE;
+
+  // Grouped by language so a long list stays navigable.
+  const byLang = {};
+  for (const t of catalog.translations) (byLang[t.language] ??= []).push(t);
+  for (const lang of Object.keys(byLang).sort()) {
+    const g = document.createElement('optgroup'); g.label = lang;
+    for (const t of byLang[lang]) {
+      const o = document.createElement('option');
+      o.value = t.id;
+      o.textContent = t.title || t.id;
+      g.appendChild(o);
+    }
+    $('translation').appendChild(g);
+  }
+  $('translation').value = 'eng-kjv2006';
+  await loadTranslation();
+}
+
+async function loadTranslation() {
+  const id = $('translation').value;
+  meta = await (await fetch(`${BASE}/translations/${id}/meta.json`)).json();
+  $('book').innerHTML = '';
+  const native = meta.books.some(b => b.localName && b.localName !== b.name);
+  for (const b of meta.books) {
+    const o = document.createElement('option');
+    o.value = b.book;
+    // The reader's own language first. The English name stays alongside so
+    // someone browsing a script they cannot read is not stranded.
+    o.textContent = native && b.localName !== b.name
+      ? `${b.localName} · ${b.name}` : b.name;
+    $('book').appendChild(o);
+  }
+  // Keep the reader's place when switching translation, where the book exists.
+  const keep = book && meta.books.some(b => b.book === book.book);
+  $('book').value = keep ? book.book : meta.books[0].book;
+  await loadBook(keep ? currentChapter() : 1);
+}
+
+function currentChapter() { return Number($('chapter').value) || 1; }
+
+async function loadBook(wantChapter) {
+  const entry = meta.books.find(b => b.book === $('book').value);
+  book = await (await fetch(`${BASE}/translations/${meta.id}/${entry.file}`)).json();
+  $('chapter').innerHTML = '';
+  for (const c of book.chapters) {
+    const o = document.createElement('option');
+    o.value = c.chapter; o.textContent = c.chapter;
+    $('chapter').appendChild(o);
+  }
+  const exists = book.chapters.some(c => c.chapter === wantChapter);
+  $('chapter').value = exists ? wantChapter : book.chapters[0].chapter;
+  render();
+}
+
+function render() {
+  const ch = book.chapters.find(c => c.chapter === currentChapter());
+  const rtl = meta.textDirection === 'rtl';
+  $('heading').textContent = `${book.localName || book.name} ${ch.chapter}`;
+  $('heading').setAttribute('dir', rtl ? 'rtl' : 'ltr');
+  $('ref').textContent = `${book.name} · ${meta.title} · ${meta.language}`;
+
+  // A chapter the publisher never included is worth saying out loud rather
+  // than letting it look like a bug in the reader.
+  const gap = (meta.knownGaps || []).find(g => g.book === book.book);
+  $('gap').hidden = !gap;
+  if (gap) $('gap').textContent =
+    `${gap.name} ${gap.missingChapters.join(', ')} is absent from this translation's source text, not from this site.`;
+
+  const box = $('verses');
+  box.innerHTML = '';
+  box.setAttribute('dir', rtl ? 'rtl' : 'ltr');
+  box.lang = meta.languageCode || '';
+  for (const v of ch.verses) {
+    const p = document.createElement('p');
+    p.className = 'v';
+    const n = document.createElement('span');
+    n.className = 'n'; n.textContent = v.ref || v.verse;
+    p.append(n, document.createTextNode(v.text));
+    box.appendChild(p);
+  }
+  const i = book.chapters.findIndex(c => c.chapter === ch.chapter);
+  $('prev').disabled = i <= 0;
+  $('next').disabled = i >= book.chapters.length - 1;
+  history.replaceState(null, '', `#${meta.id}/${book.book}/${ch.chapter}`);
+}
+
+function step(delta) {
+  const i = book.chapters.findIndex(c => c.chapter === currentChapter());
+  const target = book.chapters[i + delta];
+  if (!target) return;
+  $('chapter').value = target.chapter;
+  render();
+  scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+$('translation').addEventListener('change', loadTranslation);
+$('book').addEventListener('change', () => loadBook(1));
+$('chapter').addEventListener('change', render);
+$('prev').addEventListener('click', () => step(-1));
+$('next').addEventListener('click', () => step(1));
+addEventListener('keydown', e => {
+  if (e.target.tagName === 'SELECT') return;
+  if (e.key === 'ArrowLeft') step(-1);
+  if (e.key === 'ArrowRight') step(1);
+});
+
+boot().catch(err => {
+  $('heading').textContent = 'Could not load';
+  $('verses').textContent = err.message;
+});
+</script>
+</body>
+</html>

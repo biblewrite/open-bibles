@@ -1,0 +1,624 @@
+{
+ "id": "kor",
+ "title": "한국어 성경",
+ "shortTitle": "Korean Bible 1910",
+ "language": "Korean",
+ "languageNative": "한국인",
+ "languageCode": "kor",
+ "textDirection": "ltr",
+ "copyright": "public domain",
+ "redistributable": true,
+ "source": "https://ebible.org/Scriptures/kor_usfm.zip",
+ "sourcePage": "http://ebible.org/kor/",
+ "counts": {
+  "books": 66,
+  "chapters": 1188,
+  "verses": 30991
+ },
+ "books": [
+  {
+   "book": "GEN",
+   "name": "Genesis",
+   "localName": "창세기",
+   "order": 1,
+   "chapters": 50,
+   "verses": 1520,
+   "file": "books/01-GEN.json"
+  },
+  {
+   "book": "EXO",
+   "name": "Exodus",
+   "localName": "출애굽기",
+   "order": 2,
+   "chapters": 40,
+   "verses": 1213,
+   "file": "books/02-EXO.json"
+  },
+  {
+   "book": "LEV",
+   "name": "Leviticus",
+   "localName": "레위기",
+   "order": 3,
+   "chapters": 27,
+   "verses": 859,
+   "file": "books/03-LEV.json"
+  },
+  {
+   "book": "NUM",
+   "name": "Numbers",
+   "localName": "민수기",
+   "order": 4,
+   "chapters": 36,
+   "verses": 1285,
+   "file": "books/04-NUM.json"
+  },
+  {
+   "book": "DEU",
+   "name": "Deuteronomy",
+   "localName": "신명기",
+   "order": 5,
+   "chapters": 34,
+   "verses": 959,
+   "file": "books/05-DEU.json"
+  },
+  {
+   "book": "JOS",
+   "name": "Joshua",
+   "localName": "여호수아",
+   "order": 6,
+   "chapters": 24,
+   "verses": 655,
+   "file": "books/06-JOS.json"
+  },
+  {
+   "book": "JDG",
+   "name": "Judges",
+   "localName": "사사기",
+   "order": 7,
+   "chapters": 21,
+   "verses": 617,
+   "file": "books/07-JDG.json"
+  },
+  {
+   "book": "RUT",
+   "name": "Ruth",
+   "localName": "룻기",
+   "order": 8,
+   "chapters": 4,
+   "verses": 85,
+   "file": "books/08-RUT.json"
+  },
+  {
+   "book": "1SA",
+   "name": "1 Samuel",
+   "localName": "사무엘상",
+   "order": 9,
+   "chapters": 31,
+   "verses": 807,
+   "file": "books/09-1SA.json"
+  },
+  {
+   "book": "2SA",
+   "name": "2 Samuel",
+   "localName": "사무엘하",
+   "order": 10,
+   "chapters": 24,
+   "verses": 695,
+   "file": "books/10-2SA.json"
+  },
+  {
+   "book": "1KI",
+   "name": "1 Kings",
+   "localName": "열왕기상",
+   "order": 11,
+   "chapters": 22,
+   "verses": 814,
+   "file": "books/11-1KI.json"
+  },
+  {
+   "book": "2KI",
+   "name": "2 Kings",
+   "localName": "열왕기하",
+   "order": 12,
+   "chapters": 25,
+   "verses": 719,
+   "file": "books/12-2KI.json"
+  },
+  {
+   "book": "1CH",
+   "name": "1 Chronicles",
+   "localName": "역대상",
+   "order": 13,
+   "chapters": 29,
+   "verses": 941,
+   "file": "books/13-1CH.json"
+  },
+  {
+   "book": "2CH",
+   "name": "2 Chronicles",
+   "localName": "역대하",
+   "order": 14,
+   "chapters": 36,
+   "verses": 821,
+   "file": "books/14-2CH.json"
+  },
+  {
+   "book": "EZR",
+   "name": "Ezra",
+   "localName": "에스라",
+   "order": 15,
+   "chapters": 10,
+   "verses": 280,
+   "file": "books/15-EZR.json"
+  },
+  {
+   "book": "NEH",
+   "name": "Nehemiah",
+   "localName": "느헤미야",
+   "order": 16,
+   "chapters": 13,
+   "verses": 406,
+   "file": "books/16-NEH.json"
+  },
+  {
+   "book": "EST",
+   "name": "Esther",
+   "localName": "에스더",
+   "order": 17,
+   "chapters": 10,
+   "verses": 164,
+   "file": "books/17-EST.json"
+  },
+  {
+   "book": "JOB",
+   "name": "Job",
+   "localName": "욥기",
+   "order": 18,
+   "chapters": 42,
+   "verses": 1070,
+   "file": "books/18-JOB.json"
+  },
+  {
+   "book": "PSA",
+   "name": "Psalms",
+   "localName": "시편",
+   "order": 19,
+   "chapters": 150,
+   "verses": 2429,
+   "file": "books/19-PSA.json"
+  },
+  {
+   "book": "PRO",
+   "name": "Proverbs",
+   "localName": "잠언",
+   "order": 20,
+   "chapters": 31,
+   "verses": 911,
+   "file": "books/20-PRO.json"
+  },
+  {
+   "book": "ECC",
+   "name": "Ecclesiastes",
+   "localName": "전도서",
+   "order": 21,
+   "chapters": 12,
+   "verses": 221,
+   "file": "books/21-ECC.json"
+  },
+  {
+   "book": "SNG",
+   "name": "Song of Solomon",
+   "localName": "아가",
+   "order": 22,
+   "chapters": 8,
+   "verses": 117,
+   "file": "books/22-SNG.json"
+  },
+  {
+   "book": "ISA",
+   "name": "Isaiah",
+   "localName": "이사야",
+   "order": 23,
+   "chapters": 66,
+   "verses": 1288,
+   "file": "books/23-ISA.json"
+  },
+  {
+   "book": "JER",
+   "name": "Jeremiah",
+   "localName": "예레미야",
+   "order": 24,
+   "chapters": 52,
+   "verses": 1361,
+   "file": "books/24-JER.json"
+  },
+  {
+   "book": "LAM",
+   "name": "Lamentations",
+   "localName": "예레미야 애가",
+   "order": 25,
+   "chapters": 5,
+   "verses": 154,
+   "file": "books/25-LAM.json"
+  },
+  {
+   "book": "EZK",
+   "name": "Ezekiel",
+   "localName": "에스겔",
+   "order": 26,
+   "chapters": 48,
+   "verses": 1273,
+   "file": "books/26-EZK.json"
+  },
+  {
+   "book": "DAN",
+   "name": "Daniel",
+   "localName": "다니엘",
+   "order": 27,
+   "chapters": 12,
+   "verses": 357,
+   "file": "books/27-DAN.json"
+  },
+  {
+   "book": "HOS",
+   "name": "Hosea",
+   "localName": "호세아",
+   "order": 28,
+   "chapters": 14,
+   "verses": 197,
+   "file": "books/28-HOS.json"
+  },
+  {
+   "book": "JOL",
+   "name": "Joel",
+   "localName": "요엘",
+   "order": 29,
+   "chapters": 3,
+   "verses": 73,
+   "file": "books/29-JOL.json"
+  },
+  {
+   "book": "AMO",
+   "name": "Amos",
+   "localName": "아모스",
+   "order": 30,
+   "chapters": 9,
+   "verses": 146,
+   "file": "books/30-AMO.json"
+  },
+  {
+   "book": "OBA",
+   "name": "Obadiah",
+   "localName": "오바댜",
+   "order": 31,
+   "chapters": 1,
+   "verses": 21,
+   "file": "books/31-OBA.json"
+  },
+  {
+   "book": "JON",
+   "name": "Jonah",
+   "localName": "요나",
+   "order": 32,
+   "chapters": 4,
+   "verses": 48,
+   "file": "books/32-JON.json"
+  },
+  {
+   "book": "MIC",
+   "name": "Micah",
+   "localName": "미가",
+   "order": 33,
+   "chapters": 7,
+   "verses": 105,
+   "file": "books/33-MIC.json"
+  },
+  {
+   "book": "NAM",
+   "name": "Nahum",
+   "localName": "나훔",
+   "order": 34,
+   "chapters": 3,
+   "verses": 47,
+   "file": "books/34-NAM.json"
+  },
+  {
+   "book": "HAB",
+   "name": "Habakkuk",
+   "localName": "하박국",
+   "order": 35,
+   "chapters": 3,
+   "verses": 56,
+   "file": "books/35-HAB.json"
+  },
+  {
+   "book": "ZEP",
+   "name": "Zephaniah",
+   "localName": "스바냐",
+   "order": 36,
+   "chapters": 3,
+   "verses": 53,
+   "file": "books/36-ZEP.json"
+  },
+  {
+   "book": "HAG",
+   "name": "Haggai",
+   "localName": "학개",
+   "order": 37,
+   "chapters": 2,
+   "verses": 38,
+   "file": "books/37-HAG.json"
+  },
+  {
+   "book": "ZEC",
+   "name": "Zechariah",
+   "localName": "스가랴",
+   "order": 38,
+   "chapters": 14,
+   "verses": 211,
+   "file": "books/38-ZEC.json"
+  },
+  {
+   "book": "MAL",
+   "name": "Malachi",
+   "localName": "말라기",
+   "order": 39,
+   "chapters": 4,
+   "verses": 55,
+   "file": "books/39-MAL.json"
+  },
+  {
+   "book": "MAT",
+   "name": "Matthew",
+   "localName": "마태복음",
+   "order": 40,
+   "chapters": 28,
+   "verses": 1071,
+   "file": "books/40-MAT.json"
+  },
+  {
+   "book": "MRK",
+   "name": "Mark",
+   "localName": "마가복음",
+   "order": 41,
+   "chapters": 16,
+   "verses": 678,
+   "file": "books/41-MRK.json"
+  },
+  {
+   "book": "LUK",
+   "name": "Luke",
+   "localName": "누가복음",
+   "order": 42,
+   "chapters": 24,
+   "verses": 1151,
+   "file": "books/42-LUK.json"
+  },
+  {
+   "book": "JHN",
+   "name": "John",
+   "localName": "요한복음",
+   "order": 43,
+   "chapters": 21,
+   "verses": 879,
+   "file": "books/43-JHN.json"
+  },
+  {
+   "book": "ACT",
+   "name": "Acts",
+   "localName": "사도행전",
+   "order": 44,
+   "chapters": 28,
+   "verses": 1006,
+   "file": "books/44-ACT.json"
+  },
+  {
+   "book": "ROM",
+   "name": "Romans",
+   "localName": "로마서",
+   "order": 45,
+   "chapters": 16,
+   "verses": 433,
+   "file": "books/45-ROM.json"
+  },
+  {
+   "book": "1CO",
+   "name": "1 Corinthians",
+   "localName": "고린도전서",
+   "order": 46,
+   "chapters": 16,
+   "verses": 437,
+   "file": "books/46-1CO.json"
+  },
+  {
+   "book": "2CO",
+   "name": "2 Corinthians",
+   "localName": "고린도후서",
+   "order": 47,
+   "chapters": 13,
+   "verses": 256,
+   "file": "books/47-2CO.json"
+  },
+  {
+   "book": "GAL",
+   "name": "Galatians",
+   "localName": "갈라디아서",
+   "order": 48,
+   "chapters": 6,
+   "verses": 149,
+   "file": "books/48-GAL.json"
+  },
+  {
+   "book": "EPH",
+   "name": "Ephesians",
+   "localName": "에베소서",
+   "order": 49,
+   "chapters": 6,
+   "verses": 155,
+   "file": "books/49-EPH.json"
+  },
+  {
+   "book": "PHP",
+   "name": "Philippians",
+   "localName": "빌립보서",
+   "order": 50,
+   "chapters": 4,
+   "verses": 104,
+   "file": "books/50-PHP.json"
+  },
+  {
+   "book": "COL",
+   "name": "Colossians",
+   "localName": "골로새서",
+   "order": 51,
+   "chapters": 4,
+   "verses": 86,
+   "file": "books/51-COL.json"
+  },
+  {
+   "book": "1TH",
+   "name": "1 Thessalonians",
+   "localName": "데살로니가전서",
+   "order": 52,
+   "chapters": 5,
+   "verses": 89,
+   "file": "books/52-1TH.json"
+  },
+  {
+   "book": "2TH",
+   "name": "2 Thessalonians",
+   "localName": "데살로니가후서",
+   "order": 53,
+   "chapters": 3,
+   "verses": 47,
+   "file": "books/53-2TH.json"
+  },
+  {
+   "book": "1TI",
+   "name": "1 Timothy",
+   "localName": "디모데전서",
+   "order": 54,
+   "chapters": 6,
+   "verses": 113,
+   "file": "books/54-1TI.json"
+  },
+  {
+   "book": "2TI",
+   "name": "2 Timothy",
+   "localName": "디모데후서",
+   "order": 55,
+   "chapters": 4,
+   "verses": 82,
+   "file": "books/55-2TI.json"
+  },
+  {
+   "book": "TIT",
+   "name": "Titus",
+   "localName": "디도서",
+   "order": 56,
+   "chapters": 3,
+   "verses": 46,
+   "file": "books/56-TIT.json"
+  },
+  {
+   "book": "PHM",
+   "name": "Philemon",
+   "localName": "빌레몬서",
+   "order": 57,
+   "chapters": 1,
+   "verses": 25,
+   "file": "books/57-PHM.json"
+  },
+  {
+   "book": "HEB",
+   "name": "Hebrews",
+   "localName": "히브리서",
+   "order": 58,
+   "chapters": 13,
+   "verses": 303,
+   "file": "books/58-HEB.json"
+  },
+  {
+   "book": "JAS",
+   "name": "James",
+   "localName": "야고보서",
+   "order": 59,
+   "chapters": 5,
+   "verses": 108,
+   "file": "books/59-JAS.json"
+  },
+  {
+   "book": "1PE",
+   "name": "1 Peter",
+   "localName": "베드로전서",
+   "order": 60,
+   "chapters": 4,
+   "verses": 80,
+   "file": "books/60-1PE.json"
+  },
+  {
+   "book": "2PE",
+   "name": "2 Peter",
+   "localName": "베드로후서",
+   "order": 61,
+   "chapters": 3,
+   "verses": 61,
+   "file": "books/61-2PE.json"
+  },
+  {
+   "book": "1JN",
+   "name": "1 John",
+   "localName": "요한1서",
+   "order": 62,
+   "chapters": 5,
+   "verses": 105,
+   "file": "books/62-1JN.json"
+  },
+  {
+   "book": "2JN",
+   "name": "2 John",
+   "localName": "요한2서",
+   "order": 63,
+   "chapters": 1,
+   "verses": 13,
+   "file": "books/63-2JN.json"
+  },
+  {
+   "book": "3JN",
+   "name": "3 John",
+   "localName": "요한3서",
+   "order": 64,
+   "chapters": 1,
+   "verses": 14,
+   "file": "books/64-3JN.json"
+  },
+  {
+   "book": "JUD",
+   "name": "Jude",
+   "localName": "유다서",
+   "order": 65,
+   "chapters": 1,
+   "verses": 25,
+   "file": "books/65-JUD.json"
+  },
+  {
+   "book": "REV",
+   "name": "Revelation",
+   "localName": "요한계시록",
+   "order": 66,
+   "chapters": 22,
+   "verses": 404,
+   "file": "books/66-REV.json"
+  }
+ ],
+ "knownGaps": [
+  {
+   "book": "1PE",
+   "name": "1 Peter",
+   "missingChapters": [
+    5
+   ]
+  }
+ ],
+ "gapNote": "Chapters absent from the publisher's own source text, not from this conversion. Verified against the original USFM."
+}

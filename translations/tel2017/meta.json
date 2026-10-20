@@ -1,0 +1,616 @@
+{
+ "id": "tel2017",
+ "title": "ఇండియన్ రివైజ్డ్ వెర్షన్ (IRV) - తెలుగు -2019",
+ "shortTitle": "Telugu Indian Revised Version Bible",
+ "language": "Telugu",
+ "languageNative": "తెలుగు",
+ "languageCode": "tel",
+ "textDirection": "ltr",
+ "copyright": "Copyright © 2017, 2019 Bridge Connectivity Solutions",
+ "redistributable": true,
+ "source": "https://ebible.org/Scriptures/tel2017_usfm.zip",
+ "sourcePage": "http://ebible.org/tel2017/",
+ "counts": {
+  "books": 66,
+  "chapters": 1189,
+  "verses": 31004
+ },
+ "books": [
+  {
+   "book": "GEN",
+   "name": "Genesis",
+   "localName": "ఆదికాండం",
+   "order": 1,
+   "chapters": 50,
+   "verses": 1533,
+   "file": "books/01-GEN.json"
+  },
+  {
+   "book": "EXO",
+   "name": "Exodus",
+   "localName": "నిర్గమకాండం",
+   "order": 2,
+   "chapters": 40,
+   "verses": 1213,
+   "file": "books/02-EXO.json"
+  },
+  {
+   "book": "LEV",
+   "name": "Leviticus",
+   "localName": "లేవీకాండం",
+   "order": 3,
+   "chapters": 27,
+   "verses": 859,
+   "file": "books/03-LEV.json"
+  },
+  {
+   "book": "NUM",
+   "name": "Numbers",
+   "localName": "సంఖ్యాకాండం",
+   "order": 4,
+   "chapters": 36,
+   "verses": 1288,
+   "file": "books/04-NUM.json"
+  },
+  {
+   "book": "DEU",
+   "name": "Deuteronomy",
+   "localName": "ద్వితీయోపదేశ కాండము",
+   "order": 5,
+   "chapters": 34,
+   "verses": 958,
+   "file": "books/05-DEU.json"
+  },
+  {
+   "book": "JOS",
+   "name": "Joshua",
+   "localName": "యెహోషువా",
+   "order": 6,
+   "chapters": 24,
+   "verses": 658,
+   "file": "books/06-JOS.json"
+  },
+  {
+   "book": "JDG",
+   "name": "Judges",
+   "localName": "న్యాయాధిపతులు",
+   "order": 7,
+   "chapters": 21,
+   "verses": 618,
+   "file": "books/07-JDG.json"
+  },
+  {
+   "book": "RUT",
+   "name": "Ruth",
+   "localName": "రూతు",
+   "order": 8,
+   "chapters": 4,
+   "verses": 85,
+   "file": "books/08-RUT.json"
+  },
+  {
+   "book": "1SA",
+   "name": "1 Samuel",
+   "localName": "1 సమూయేలు",
+   "order": 9,
+   "chapters": 31,
+   "verses": 810,
+   "file": "books/09-1SA.json"
+  },
+  {
+   "book": "2SA",
+   "name": "2 Samuel",
+   "localName": "2 సమూయేలు",
+   "order": 10,
+   "chapters": 24,
+   "verses": 689,
+   "file": "books/10-2SA.json"
+  },
+  {
+   "book": "1KI",
+   "name": "1 Kings",
+   "localName": "1 రాజులు",
+   "order": 11,
+   "chapters": 22,
+   "verses": 816,
+   "file": "books/11-1KI.json"
+  },
+  {
+   "book": "2KI",
+   "name": "2 Kings",
+   "localName": "2 రాజులు",
+   "order": 12,
+   "chapters": 25,
+   "verses": 719,
+   "file": "books/12-2KI.json"
+  },
+  {
+   "book": "1CH",
+   "name": "1 Chronicles",
+   "localName": "1 దినవృత్తాంతాలు",
+   "order": 13,
+   "chapters": 29,
+   "verses": 942,
+   "file": "books/13-1CH.json"
+  },
+  {
+   "book": "2CH",
+   "name": "2 Chronicles",
+   "localName": "2 దినవృత్తాంతాలు",
+   "order": 14,
+   "chapters": 36,
+   "verses": 822,
+   "file": "books/14-2CH.json"
+  },
+  {
+   "book": "EZR",
+   "name": "Ezra",
+   "localName": "ఎజ్రా",
+   "order": 15,
+   "chapters": 10,
+   "verses": 280,
+   "file": "books/15-EZR.json"
+  },
+  {
+   "book": "NEH",
+   "name": "Nehemiah",
+   "localName": "నెహెమ్యా",
+   "order": 16,
+   "chapters": 13,
+   "verses": 406,
+   "file": "books/16-NEH.json"
+  },
+  {
+   "book": "EST",
+   "name": "Esther",
+   "localName": "ఎస్తేరు",
+   "order": 17,
+   "chapters": 10,
+   "verses": 167,
+   "file": "books/17-EST.json"
+  },
+  {
+   "book": "JOB",
+   "name": "Job",
+   "localName": "యోబు",
+   "order": 18,
+   "chapters": 42,
+   "verses": 1067,
+   "file": "books/18-JOB.json"
+  },
+  {
+   "book": "PSA",
+   "name": "Psalms",
+   "localName": "కీర్తనలు",
+   "order": 19,
+   "chapters": 150,
+   "verses": 2459,
+   "file": "books/19-PSA.json"
+  },
+  {
+   "book": "PRO",
+   "name": "Proverbs",
+   "localName": "సామెతలు",
+   "order": 20,
+   "chapters": 31,
+   "verses": 914,
+   "file": "books/20-PRO.json"
+  },
+  {
+   "book": "ECC",
+   "name": "Ecclesiastes",
+   "localName": "ప్రసంగి",
+   "order": 21,
+   "chapters": 12,
+   "verses": 222,
+   "file": "books/21-ECC.json"
+  },
+  {
+   "book": "SNG",
+   "name": "Song of Solomon",
+   "localName": "పరమ గీతము",
+   "order": 22,
+   "chapters": 8,
+   "verses": 117,
+   "file": "books/22-SNG.json"
+  },
+  {
+   "book": "ISA",
+   "name": "Isaiah",
+   "localName": "యెషయా",
+   "order": 23,
+   "chapters": 66,
+   "verses": 1291,
+   "file": "books/23-ISA.json"
+  },
+  {
+   "book": "JER",
+   "name": "Jeremiah",
+   "localName": "యిర్మీయా",
+   "order": 24,
+   "chapters": 52,
+   "verses": 1364,
+   "file": "books/24-JER.json"
+  },
+  {
+   "book": "LAM",
+   "name": "Lamentations",
+   "localName": "విలాప వాక్యములు",
+   "order": 25,
+   "chapters": 5,
+   "verses": 154,
+   "file": "books/25-LAM.json"
+  },
+  {
+   "book": "EZK",
+   "name": "Ezekiel",
+   "localName": "యెహెజ్కేలు",
+   "order": 26,
+   "chapters": 48,
+   "verses": 1271,
+   "file": "books/26-EZK.json"
+  },
+  {
+   "book": "DAN",
+   "name": "Daniel",
+   "localName": "దానియేలు",
+   "order": 27,
+   "chapters": 12,
+   "verses": 357,
+   "file": "books/27-DAN.json"
+  },
+  {
+   "book": "HOS",
+   "name": "Hosea",
+   "localName": "హోషేయ",
+   "order": 28,
+   "chapters": 14,
+   "verses": 197,
+   "file": "books/28-HOS.json"
+  },
+  {
+   "book": "JOL",
+   "name": "Joel",
+   "localName": "యోవేలు",
+   "order": 29,
+   "chapters": 3,
+   "verses": 73,
+   "file": "books/29-JOL.json"
+  },
+  {
+   "book": "AMO",
+   "name": "Amos",
+   "localName": "ఆమోసు",
+   "order": 30,
+   "chapters": 9,
+   "verses": 146,
+   "file": "books/30-AMO.json"
+  },
+  {
+   "book": "OBA",
+   "name": "Obadiah",
+   "localName": "ఓబద్యా",
+   "order": 31,
+   "chapters": 1,
+   "verses": 21,
+   "file": "books/31-OBA.json"
+  },
+  {
+   "book": "JON",
+   "name": "Jonah",
+   "localName": "యోనా",
+   "order": 32,
+   "chapters": 4,
+   "verses": 48,
+   "file": "books/32-JON.json"
+  },
+  {
+   "book": "MIC",
+   "name": "Micah",
+   "localName": "మీకా",
+   "order": 33,
+   "chapters": 7,
+   "verses": 105,
+   "file": "books/33-MIC.json"
+  },
+  {
+   "book": "NAM",
+   "name": "Nahum",
+   "localName": "నహూము",
+   "order": 34,
+   "chapters": 3,
+   "verses": 47,
+   "file": "books/34-NAM.json"
+  },
+  {
+   "book": "HAB",
+   "name": "Habakkuk",
+   "localName": "హబక్కూకు",
+   "order": 35,
+   "chapters": 3,
+   "verses": 56,
+   "file": "books/35-HAB.json"
+  },
+  {
+   "book": "ZEP",
+   "name": "Zephaniah",
+   "localName": "జెఫన్యా",
+   "order": 36,
+   "chapters": 3,
+   "verses": 53,
+   "file": "books/36-ZEP.json"
+  },
+  {
+   "book": "HAG",
+   "name": "Haggai",
+   "localName": "హగ్గయి",
+   "order": 37,
+   "chapters": 2,
+   "verses": 38,
+   "file": "books/37-HAG.json"
+  },
+  {
+   "book": "ZEC",
+   "name": "Zechariah",
+   "localName": "జెకర్యా",
+   "order": 38,
+   "chapters": 14,
+   "verses": 211,
+   "file": "books/38-ZEC.json"
+  },
+  {
+   "book": "MAL",
+   "name": "Malachi",
+   "localName": "మలాకీ",
+   "order": 39,
+   "chapters": 4,
+   "verses": 55,
+   "file": "books/39-MAL.json"
+  },
+  {
+   "book": "MAT",
+   "name": "Matthew",
+   "localName": "మత్తయి రాసిన సువార్త",
+   "order": 40,
+   "chapters": 28,
+   "verses": 1055,
+   "file": "books/40-MAT.json"
+  },
+  {
+   "book": "MRK",
+   "name": "Mark",
+   "localName": "మార్కు రాసిన సువార్త",
+   "order": 41,
+   "chapters": 16,
+   "verses": 676,
+   "file": "books/41-MRK.json"
+  },
+  {
+   "book": "LUK",
+   "name": "Luke",
+   "localName": "లూకా రాసిన సువార్త",
+   "order": 42,
+   "chapters": 24,
+   "verses": 1131,
+   "file": "books/42-LUK.json"
+  },
+  {
+   "book": "JHN",
+   "name": "John",
+   "localName": "యోహాను రాసిన సువార్త",
+   "order": 43,
+   "chapters": 21,
+   "verses": 874,
+   "file": "books/43-JHN.json"
+  },
+  {
+   "book": "ACT",
+   "name": "Acts",
+   "localName": "అపోస్తలుల కార్యములు",
+   "order": 44,
+   "chapters": 28,
+   "verses": 1004,
+   "file": "books/44-ACT.json"
+  },
+  {
+   "book": "ROM",
+   "name": "Romans",
+   "localName": "రోమీయులకు రాసిన పత్రిక",
+   "order": 45,
+   "chapters": 16,
+   "verses": 425,
+   "file": "books/45-ROM.json"
+  },
+  {
+   "book": "1CO",
+   "name": "1 Corinthians",
+   "localName": "కొరింతీయులకు రాసిన మొదటి పత్రిక",
+   "order": 46,
+   "chapters": 16,
+   "verses": 435,
+   "file": "books/46-1CO.json"
+  },
+  {
+   "book": "2CO",
+   "name": "2 Corinthians",
+   "localName": "కొరింతీయులకు రాసిన రెండవ పత్రిక",
+   "order": 47,
+   "chapters": 13,
+   "verses": 257,
+   "file": "books/47-2CO.json"
+  },
+  {
+   "book": "GAL",
+   "name": "Galatians",
+   "localName": "గలతీయులకు రాసిన పత్రిక",
+   "order": 48,
+   "chapters": 6,
+   "verses": 149,
+   "file": "books/48-GAL.json"
+  },
+  {
+   "book": "EPH",
+   "name": "Ephesians",
+   "localName": "ఎఫెసీయులకు రాసిన పత్రిక",
+   "order": 49,
+   "chapters": 6,
+   "verses": 149,
+   "file": "books/49-EPH.json"
+  },
+  {
+   "book": "PHP",
+   "name": "Philippians",
+   "localName": "ఫిలిప్పీయులకు రాసిన పత్రిక",
+   "order": 50,
+   "chapters": 4,
+   "verses": 99,
+   "file": "books/50-PHP.json"
+  },
+  {
+   "book": "COL",
+   "name": "Colossians",
+   "localName": "కొలస్సయులకు రాసిన పత్రిక",
+   "order": 51,
+   "chapters": 4,
+   "verses": 93,
+   "file": "books/51-COL.json"
+  },
+  {
+   "book": "1TH",
+   "name": "1 Thessalonians",
+   "localName": "తెస్సలోనీకయులకు రాసిన మొదటి పత్రిక",
+   "order": 52,
+   "chapters": 5,
+   "verses": 87,
+   "file": "books/52-1TH.json"
+  },
+  {
+   "book": "2TH",
+   "name": "2 Thessalonians",
+   "localName": "తెస్సలోనీకయులకు రాసిన రెండవ పత్రిక",
+   "order": 53,
+   "chapters": 3,
+   "verses": 45,
+   "file": "books/53-2TH.json"
+  },
+  {
+   "book": "1TI",
+   "name": "1 Timothy",
+   "localName": "తిమోతికి రాసిన మొదటి పత్రిక",
+   "order": 54,
+   "chapters": 6,
+   "verses": 113,
+   "file": "books/54-1TI.json"
+  },
+  {
+   "book": "2TI",
+   "name": "2 Timothy",
+   "localName": "తిమోతికి రాసిన రెండవ పత్రిక",
+   "order": 55,
+   "chapters": 4,
+   "verses": 81,
+   "file": "books/55-2TI.json"
+  },
+  {
+   "book": "TIT",
+   "name": "Titus",
+   "localName": "తీతుకు రాసిన పత్రిక",
+   "order": 56,
+   "chapters": 3,
+   "verses": 41,
+   "file": "books/56-TIT.json"
+  },
+  {
+   "book": "PHM",
+   "name": "Philemon",
+   "localName": "ఫిలేమోనుకు రాసిన పత్రిక",
+   "order": 57,
+   "chapters": 1,
+   "verses": 24,
+   "file": "books/57-PHM.json"
+  },
+  {
+   "book": "HEB",
+   "name": "Hebrews",
+   "localName": "హెబ్రీయులకు రాసిన పత్రిక",
+   "order": 58,
+   "chapters": 13,
+   "verses": 302,
+   "file": "books/58-HEB.json"
+  },
+  {
+   "book": "JAS",
+   "name": "James",
+   "localName": "యాకోబు రాసిన పత్రిక",
+   "order": 59,
+   "chapters": 5,
+   "verses": 108,
+   "file": "books/59-JAS.json"
+  },
+  {
+   "book": "1PE",
+   "name": "1 Peter",
+   "localName": "పేతురు రాసిన మొదటి పత్రిక",
+   "order": 60,
+   "chapters": 5,
+   "verses": 105,
+   "file": "books/60-1PE.json"
+  },
+  {
+   "book": "2PE",
+   "name": "2 Peter",
+   "localName": "పేతురు రాసిన రెండవ పత్రిక",
+   "order": 61,
+   "chapters": 3,
+   "verses": 61,
+   "file": "books/61-2PE.json"
+  },
+  {
+   "book": "1JN",
+   "name": "1 John",
+   "localName": "యోహాను రాసిన మొదటి పత్రిక",
+   "order": 62,
+   "chapters": 5,
+   "verses": 105,
+   "file": "books/62-1JN.json"
+  },
+  {
+   "book": "2JN",
+   "name": "2 John",
+   "localName": "యోహాను రాసిన రెండవ పత్రిక",
+   "order": 63,
+   "chapters": 1,
+   "verses": 13,
+   "file": "books/63-2JN.json"
+  },
+  {
+   "book": "3JN",
+   "name": "3 John",
+   "localName": "యోహాను రాసిన మూడవ పత్రిక",
+   "order": 64,
+   "chapters": 1,
+   "verses": 15,
+   "file": "books/64-3JN.json"
+  },
+  {
+   "book": "JUD",
+   "name": "Jude",
+   "localName": "యూదా రాసిన పత్రిక",
+   "order": 65,
+   "chapters": 1,
+   "verses": 25,
+   "file": "books/65-JUD.json"
+  },
+  {
+   "book": "REV",
+   "name": "Revelation",
+   "localName": "యోహాను రాసిన ప్రకటన గ్రంథం",
+   "order": 66,
+   "chapters": 22,
+   "verses": 403,
+   "file": "books/66-REV.json"
+  }
+ ],
+ "knownGaps": [],
+ "gapNote": ""
+}

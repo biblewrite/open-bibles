@@ -1,0 +1,616 @@
+{
+ "id": "cmn-cu89t",
+ "title": "新標點和合本",
+ "shortTitle": "Chinese Union Version (traditional)",
+ "language": "Chinese",
+ "languageNative": "中國語文",
+ "languageCode": "cmn",
+ "textDirection": "ltr",
+ "copyright": "public domain",
+ "redistributable": true,
+ "source": "https://ebible.org/Scriptures/cmn-cu89t_usfm.zip",
+ "sourcePage": "http://ebible.org/cmn-cu89t/",
+ "counts": {
+  "books": 66,
+  "chapters": 1189,
+  "verses": 31021
+ },
+ "books": [
+  {
+   "book": "GEN",
+   "name": "Genesis",
+   "localName": "創世記",
+   "order": 1,
+   "chapters": 50,
+   "verses": 1532,
+   "file": "books/01-GEN.json"
+  },
+  {
+   "book": "EXO",
+   "name": "Exodus",
+   "localName": "出埃及記",
+   "order": 2,
+   "chapters": 40,
+   "verses": 1212,
+   "file": "books/02-EXO.json"
+  },
+  {
+   "book": "LEV",
+   "name": "Leviticus",
+   "localName": "利未記",
+   "order": 3,
+   "chapters": 27,
+   "verses": 858,
+   "file": "books/03-LEV.json"
+  },
+  {
+   "book": "NUM",
+   "name": "Numbers",
+   "localName": "民數記",
+   "order": 4,
+   "chapters": 36,
+   "verses": 1272,
+   "file": "books/04-NUM.json"
+  },
+  {
+   "book": "DEU",
+   "name": "Deuteronomy",
+   "localName": "申命記",
+   "order": 5,
+   "chapters": 34,
+   "verses": 951,
+   "file": "books/05-DEU.json"
+  },
+  {
+   "book": "JOS",
+   "name": "Joshua",
+   "localName": "約書亞記",
+   "order": 6,
+   "chapters": 24,
+   "verses": 656,
+   "file": "books/06-JOS.json"
+  },
+  {
+   "book": "JDG",
+   "name": "Judges",
+   "localName": "士師記",
+   "order": 7,
+   "chapters": 21,
+   "verses": 617,
+   "file": "books/07-JDG.json"
+  },
+  {
+   "book": "RUT",
+   "name": "Ruth",
+   "localName": "路得記",
+   "order": 8,
+   "chapters": 4,
+   "verses": 85,
+   "file": "books/08-RUT.json"
+  },
+  {
+   "book": "1SA",
+   "name": "1 Samuel",
+   "localName": "撒母耳記上",
+   "order": 9,
+   "chapters": 31,
+   "verses": 809,
+   "file": "books/09-1SA.json"
+  },
+  {
+   "book": "2SA",
+   "name": "2 Samuel",
+   "localName": "撒母耳記下",
+   "order": 10,
+   "chapters": 24,
+   "verses": 694,
+   "file": "books/10-2SA.json"
+  },
+  {
+   "book": "1KI",
+   "name": "1 Kings",
+   "localName": "列王紀上",
+   "order": 11,
+   "chapters": 22,
+   "verses": 816,
+   "file": "books/11-1KI.json"
+  },
+  {
+   "book": "2KI",
+   "name": "2 Kings",
+   "localName": "列王紀下",
+   "order": 12,
+   "chapters": 25,
+   "verses": 719,
+   "file": "books/12-2KI.json"
+  },
+  {
+   "book": "1CH",
+   "name": "1 Chronicles",
+   "localName": "歷代志上",
+   "order": 13,
+   "chapters": 29,
+   "verses": 939,
+   "file": "books/13-1CH.json"
+  },
+  {
+   "book": "2CH",
+   "name": "2 Chronicles",
+   "localName": "歷代志下",
+   "order": 14,
+   "chapters": 36,
+   "verses": 821,
+   "file": "books/14-2CH.json"
+  },
+  {
+   "book": "EZR",
+   "name": "Ezra",
+   "localName": "以斯拉記",
+   "order": 15,
+   "chapters": 10,
+   "verses": 280,
+   "file": "books/15-EZR.json"
+  },
+  {
+   "book": "NEH",
+   "name": "Nehemiah",
+   "localName": "尼希米記",
+   "order": 16,
+   "chapters": 13,
+   "verses": 405,
+   "file": "books/16-NEH.json"
+  },
+  {
+   "book": "EST",
+   "name": "Esther",
+   "localName": "以斯帖記",
+   "order": 17,
+   "chapters": 10,
+   "verses": 165,
+   "file": "books/17-EST.json"
+  },
+  {
+   "book": "JOB",
+   "name": "Job",
+   "localName": "約伯記",
+   "order": 18,
+   "chapters": 42,
+   "verses": 1067,
+   "file": "books/18-JOB.json"
+  },
+  {
+   "book": "PSA",
+   "name": "Psalms",
+   "localName": "詩篇",
+   "order": 19,
+   "chapters": 150,
+   "verses": 2452,
+   "file": "books/19-PSA.json"
+  },
+  {
+   "book": "PRO",
+   "name": "Proverbs",
+   "localName": "箴言",
+   "order": 20,
+   "chapters": 31,
+   "verses": 913,
+   "file": "books/20-PRO.json"
+  },
+  {
+   "book": "ECC",
+   "name": "Ecclesiastes",
+   "localName": "傳道書",
+   "order": 21,
+   "chapters": 12,
+   "verses": 221,
+   "file": "books/21-ECC.json"
+  },
+  {
+   "book": "SNG",
+   "name": "Song of Solomon",
+   "localName": "雅歌",
+   "order": 22,
+   "chapters": 8,
+   "verses": 117,
+   "file": "books/22-SNG.json"
+  },
+  {
+   "book": "ISA",
+   "name": "Isaiah",
+   "localName": "以賽亞書",
+   "order": 23,
+   "chapters": 66,
+   "verses": 1290,
+   "file": "books/23-ISA.json"
+  },
+  {
+   "book": "JER",
+   "name": "Jeremiah",
+   "localName": "耶利米書",
+   "order": 24,
+   "chapters": 52,
+   "verses": 1361,
+   "file": "books/24-JER.json"
+  },
+  {
+   "book": "LAM",
+   "name": "Lamentations",
+   "localName": "耶利米哀歌",
+   "order": 25,
+   "chapters": 5,
+   "verses": 154,
+   "file": "books/25-LAM.json"
+  },
+  {
+   "book": "EZK",
+   "name": "Ezekiel",
+   "localName": "以西結書",
+   "order": 26,
+   "chapters": 48,
+   "verses": 1270,
+   "file": "books/26-EZK.json"
+  },
+  {
+   "book": "DAN",
+   "name": "Daniel",
+   "localName": "但以理書",
+   "order": 27,
+   "chapters": 12,
+   "verses": 357,
+   "file": "books/27-DAN.json"
+  },
+  {
+   "book": "HOS",
+   "name": "Hosea",
+   "localName": "何西阿書",
+   "order": 28,
+   "chapters": 14,
+   "verses": 196,
+   "file": "books/28-HOS.json"
+  },
+  {
+   "book": "JOL",
+   "name": "Joel",
+   "localName": "約珥書",
+   "order": 29,
+   "chapters": 3,
+   "verses": 73,
+   "file": "books/29-JOL.json"
+  },
+  {
+   "book": "AMO",
+   "name": "Amos",
+   "localName": "阿摩司書",
+   "order": 30,
+   "chapters": 9,
+   "verses": 146,
+   "file": "books/30-AMO.json"
+  },
+  {
+   "book": "OBA",
+   "name": "Obadiah",
+   "localName": "俄巴底亞書",
+   "order": 31,
+   "chapters": 1,
+   "verses": 21,
+   "file": "books/31-OBA.json"
+  },
+  {
+   "book": "JON",
+   "name": "Jonah",
+   "localName": "約拿書",
+   "order": 32,
+   "chapters": 4,
+   "verses": 48,
+   "file": "books/32-JON.json"
+  },
+  {
+   "book": "MIC",
+   "name": "Micah",
+   "localName": "彌迦書",
+   "order": 33,
+   "chapters": 7,
+   "verses": 105,
+   "file": "books/33-MIC.json"
+  },
+  {
+   "book": "NAM",
+   "name": "Nahum",
+   "localName": "那鴻書",
+   "order": 34,
+   "chapters": 3,
+   "verses": 47,
+   "file": "books/34-NAM.json"
+  },
+  {
+   "book": "HAB",
+   "name": "Habakkuk",
+   "localName": "哈巴谷書",
+   "order": 35,
+   "chapters": 3,
+   "verses": 56,
+   "file": "books/35-HAB.json"
+  },
+  {
+   "book": "ZEP",
+   "name": "Zephaniah",
+   "localName": "西番雅書",
+   "order": 36,
+   "chapters": 3,
+   "verses": 52,
+   "file": "books/36-ZEP.json"
+  },
+  {
+   "book": "HAG",
+   "name": "Haggai",
+   "localName": "哈該書",
+   "order": 37,
+   "chapters": 2,
+   "verses": 38,
+   "file": "books/37-HAG.json"
+  },
+  {
+   "book": "ZEC",
+   "name": "Zechariah",
+   "localName": "撒迦利亞書",
+   "order": 38,
+   "chapters": 14,
+   "verses": 211,
+   "file": "books/38-ZEC.json"
+  },
+  {
+   "book": "MAL",
+   "name": "Malachi",
+   "localName": "瑪拉基書",
+   "order": 39,
+   "chapters": 4,
+   "verses": 55,
+   "file": "books/39-MAL.json"
+  },
+  {
+   "book": "MAT",
+   "name": "Matthew",
+   "localName": "馬太福音",
+   "order": 40,
+   "chapters": 28,
+   "verses": 1069,
+   "file": "books/40-MAT.json"
+  },
+  {
+   "book": "MRK",
+   "name": "Mark",
+   "localName": "馬可福音",
+   "order": 41,
+   "chapters": 16,
+   "verses": 676,
+   "file": "books/41-MRK.json"
+  },
+  {
+   "book": "LUK",
+   "name": "Luke",
+   "localName": "路加福音",
+   "order": 42,
+   "chapters": 24,
+   "verses": 1146,
+   "file": "books/42-LUK.json"
+  },
+  {
+   "book": "JHN",
+   "name": "John",
+   "localName": "約翰福音",
+   "order": 43,
+   "chapters": 21,
+   "verses": 877,
+   "file": "books/43-JHN.json"
+  },
+  {
+   "book": "ACT",
+   "name": "Acts",
+   "localName": "使徒行傳",
+   "order": 44,
+   "chapters": 28,
+   "verses": 1001,
+   "file": "books/44-ACT.json"
+  },
+  {
+   "book": "ROM",
+   "name": "Romans",
+   "localName": "羅馬書",
+   "order": 45,
+   "chapters": 16,
+   "verses": 433,
+   "file": "books/45-ROM.json"
+  },
+  {
+   "book": "1CO",
+   "name": "1 Corinthians",
+   "localName": "哥林多前書",
+   "order": 46,
+   "chapters": 16,
+   "verses": 437,
+   "file": "books/46-1CO.json"
+  },
+  {
+   "book": "2CO",
+   "name": "2 Corinthians",
+   "localName": "哥林多後書",
+   "order": 47,
+   "chapters": 13,
+   "verses": 257,
+   "file": "books/47-2CO.json"
+  },
+  {
+   "book": "GAL",
+   "name": "Galatians",
+   "localName": "加拉太書",
+   "order": 48,
+   "chapters": 6,
+   "verses": 149,
+   "file": "books/48-GAL.json"
+  },
+  {
+   "book": "EPH",
+   "name": "Ephesians",
+   "localName": "以弗所書",
+   "order": 49,
+   "chapters": 6,
+   "verses": 154,
+   "file": "books/49-EPH.json"
+  },
+  {
+   "book": "PHP",
+   "name": "Philippians",
+   "localName": "腓立比書",
+   "order": 50,
+   "chapters": 4,
+   "verses": 104,
+   "file": "books/50-PHP.json"
+  },
+  {
+   "book": "COL",
+   "name": "Colossians",
+   "localName": "歌羅西書",
+   "order": 51,
+   "chapters": 4,
+   "verses": 94,
+   "file": "books/51-COL.json"
+  },
+  {
+   "book": "1TH",
+   "name": "1 Thessalonians",
+   "localName": "帖撒羅尼迦前書",
+   "order": 52,
+   "chapters": 5,
+   "verses": 89,
+   "file": "books/52-1TH.json"
+  },
+  {
+   "book": "2TH",
+   "name": "2 Thessalonians",
+   "localName": "帖撒羅尼迦後書",
+   "order": 53,
+   "chapters": 3,
+   "verses": 47,
+   "file": "books/53-2TH.json"
+  },
+  {
+   "book": "1TI",
+   "name": "1 Timothy",
+   "localName": "提摩太前書",
+   "order": 54,
+   "chapters": 6,
+   "verses": 113,
+   "file": "books/54-1TI.json"
+  },
+  {
+   "book": "2TI",
+   "name": "2 Timothy",
+   "localName": "提摩太後書",
+   "order": 55,
+   "chapters": 4,
+   "verses": 83,
+   "file": "books/55-2TI.json"
+  },
+  {
+   "book": "TIT",
+   "name": "Titus",
+   "localName": "提多書",
+   "order": 56,
+   "chapters": 3,
+   "verses": 46,
+   "file": "books/56-TIT.json"
+  },
+  {
+   "book": "PHM",
+   "name": "Philemon",
+   "localName": "腓利門書",
+   "order": 57,
+   "chapters": 1,
+   "verses": 25,
+   "file": "books/57-PHM.json"
+  },
+  {
+   "book": "HEB",
+   "name": "Hebrews",
+   "localName": "希伯來書",
+   "order": 58,
+   "chapters": 13,
+   "verses": 303,
+   "file": "books/58-HEB.json"
+  },
+  {
+   "book": "JAS",
+   "name": "James",
+   "localName": "雅各書",
+   "order": 59,
+   "chapters": 5,
+   "verses": 108,
+   "file": "books/59-JAS.json"
+  },
+  {
+   "book": "1PE",
+   "name": "1 Peter",
+   "localName": "彼得前書",
+   "order": 60,
+   "chapters": 5,
+   "verses": 105,
+   "file": "books/60-1PE.json"
+  },
+  {
+   "book": "2PE",
+   "name": "2 Peter",
+   "localName": "彼得後書",
+   "order": 61,
+   "chapters": 3,
+   "verses": 61,
+   "file": "books/61-2PE.json"
+  },
+  {
+   "book": "1JN",
+   "name": "1 John",
+   "localName": "約翰一書",
+   "order": 62,
+   "chapters": 5,
+   "verses": 105,
+   "file": "books/62-1JN.json"
+  },
+  {
+   "book": "2JN",
+   "name": "2 John",
+   "localName": "約翰二書",
+   "order": 63,
+   "chapters": 1,
+   "verses": 13,
+   "file": "books/63-2JN.json"
+  },
+  {
+   "book": "3JN",
+   "name": "3 John",
+   "localName": "約翰三書",
+   "order": 64,
+   "chapters": 1,
+   "verses": 15,
+   "file": "books/64-3JN.json"
+  },
+  {
+   "book": "JUD",
+   "name": "Jude",
+   "localName": "猶大書",
+   "order": 65,
+   "chapters": 1,
+   "verses": 25,
+   "file": "books/65-JUD.json"
+  },
+  {
+   "book": "REV",
+   "name": "Revelation",
+   "localName": "啟示錄",
+   "order": 66,
+   "chapters": 22,
+   "verses": 405,
+   "file": "books/66-REV.json"
+  }
+ ],
+ "knownGaps": [],
+ "gapNote": ""
+}

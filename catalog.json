@@ -1,0 +1,713 @@
+{
+ "name": "Open Bibles",
+ "description": "Public-domain and freely redistributable Bible translations as JSON.",
+ "source": "https://ebible.org/",
+ "translations": [
+  {
+   "id": "arb-vd",
+   "title": "الكتاب المقدس باللغة العربية، فان دايك",
+   "language": "Arabic",
+   "languageNative": "العربية",
+   "languageCode": "arb",
+   "textDirection": "rtl",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/arb-vd_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31104
+   },
+   "path": "translations/arb-vd",
+   "knownGaps": []
+  },
+  {
+   "id": "benirv",
+   "title": "ইন্ডিয়ান রিভাইজড ভার্সন (IRV) - বেঙ্গলী",
+   "language": "Bengali",
+   "languageNative": "বাংলা",
+   "languageCode": "ben",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2018, 2019 Bridge Connectivity Solutions Pvt. Ltd.",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/benirv_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31096
+   },
+   "path": "translations/benirv",
+   "knownGaps": []
+  },
+  {
+   "id": "cmn-cu89s",
+   "title": "新标点和合本",
+   "language": "Chinese",
+   "languageNative": "中国语文",
+   "languageCode": "cmn",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/cmn-cu89s_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31021
+   },
+   "path": "translations/cmn-cu89s",
+   "knownGaps": []
+  },
+  {
+   "id": "cmn-cu89t",
+   "title": "新標點和合本",
+   "language": "Chinese",
+   "languageNative": "中國語文",
+   "languageCode": "cmn",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/cmn-cu89t_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31021
+   },
+   "path": "translations/cmn-cu89t",
+   "knownGaps": []
+  },
+  {
+   "id": "nld",
+   "title": "De Heilige Schrift 1917",
+   "language": "Dutch",
+   "languageNative": "Nederlands",
+   "languageCode": "nld",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/nld_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31102
+   },
+   "path": "translations/nld",
+   "knownGaps": []
+  },
+  {
+   "id": "eng-asv",
+   "title": "American Standard Version (1901)",
+   "language": "English",
+   "languageNative": "English",
+   "languageCode": "eng",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/eng-asv_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31086
+   },
+   "path": "translations/eng-asv",
+   "knownGaps": []
+  },
+  {
+   "id": "eng-kjv2006",
+   "title": "King James (Authorized) Version",
+   "language": "English",
+   "languageNative": "English",
+   "languageCode": "eng",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/eng-kjv2006_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31102
+   },
+   "path": "translations/eng-kjv2006",
+   "knownGaps": []
+  },
+  {
+   "id": "engbsb",
+   "title": "Berean Standard Bible",
+   "language": "English",
+   "languageNative": "English",
+   "languageCode": "eng",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/engbsb_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31086
+   },
+   "path": "translations/engbsb",
+   "knownGaps": []
+  },
+  {
+   "id": "engwebp",
+   "title": "World English Bible",
+   "language": "English",
+   "languageNative": "English",
+   "languageCode": "eng",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/engwebp_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31098
+   },
+   "path": "translations/engwebp",
+   "knownGaps": []
+  },
+  {
+   "id": "fraLSG",
+   "title": "Louis Segond 1910",
+   "language": "French",
+   "languageNative": "français",
+   "languageCode": "fra",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/fraLSG_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31170
+   },
+   "path": "translations/fraLSG",
+   "knownGaps": []
+  },
+  {
+   "id": "deuelbbk",
+   "title": "Elberfelder Übersetzung (Version von bibelkommentare.de)",
+   "language": "German",
+   "languageNative": "Deutsch",
+   "languageCode": "deu",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2019 Verbreitung des christlichen Glaubens e.V.",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/deuelbbk_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31165
+   },
+   "path": "translations/deuelbbk",
+   "knownGaps": [
+    {
+     "book": "MAL",
+     "name": "Malachi",
+     "missingChapters": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "guj2017",
+   "title": "ઇન્ડિયન રીવાઇઝ્ડ વર્ઝન ગુજરાતી - 2019",
+   "language": "Gujarati",
+   "languageNative": "ગુજરાતી",
+   "languageCode": "guj",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2019 Bridge Connectivity Solutions",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/guj2017_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31104
+   },
+   "path": "translations/guj2017",
+   "knownGaps": []
+  },
+  {
+   "id": "heb",
+   "title": "תנ ך עברי מודרני",
+   "language": "Hebrew",
+   "languageNative": "עברית",
+   "languageCode": "heb",
+   "textDirection": "rtl",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/heb_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31102
+   },
+   "path": "translations/heb",
+   "knownGaps": []
+  },
+  {
+   "id": "hin2017",
+   "title": "इंडियन रिवाइज्ड वर्जन (IRV) हिंदी - 2019",
+   "language": "Hindi",
+   "languageNative": "मानक हिन्दी‎",
+   "languageCode": "hin",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2017, 2018, 2019 Bridge Connectivity Solutions",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/hin2017_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31104
+   },
+   "path": "translations/hin2017",
+   "knownGaps": []
+  },
+  {
+   "id": "indayt",
+   "title": "Alkitab Yang Terbuka",
+   "language": "Indonesian",
+   "languageNative": "bahasa Indonesia",
+   "languageCode": "ind",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2011-2024 YLSA-AYT",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/indayt_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31102
+   },
+   "path": "translations/indayt",
+   "knownGaps": []
+  },
+  {
+   "id": "ita1927",
+   "title": "Riveduta Bibbia 1927",
+   "language": "Italian",
+   "languageNative": "lingua italiana",
+   "languageCode": "ita",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/ita1927_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31102
+   },
+   "path": "translations/ita1927",
+   "knownGaps": []
+  },
+  {
+   "id": "jpnm",
+   "title": "フリーダム・バイブル",
+   "language": "Japanese",
+   "languageNative": "日本語",
+   "languageCode": "jpn",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/jpnm_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31098
+   },
+   "path": "translations/jpnm",
+   "knownGaps": []
+  },
+  {
+   "id": "kanirv",
+   "title": "ಇಂಡಿಯನ್ ರಿವೈಜ್ಡ್ ವರ್ಸನ್ (IRV) - ಕನ್ನಡ - 2019",
+   "language": "Kannada",
+   "languageNative": "ಕನ್ನಡ",
+   "languageCode": "kan",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2017, 2019 Bridge Connectivity Solutions",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/kanirv_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31031
+   },
+   "path": "translations/kanirv",
+   "knownGaps": []
+  },
+  {
+   "id": "kor",
+   "title": "한국어 성경",
+   "language": "Korean",
+   "languageNative": "한국인",
+   "languageCode": "kor",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/kor_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1188,
+    "verses": 30991
+   },
+   "path": "translations/kor",
+   "knownGaps": [
+    {
+     "book": "1PE",
+     "name": "1 Peter",
+     "missingChapters": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mal2015",
+   "title": "മലയാളം സത്യവേദപുസ്തകം 1910 - പരിഷ്കരിച്ച പതിപ്പ്, സമകാലിക ലിപിയിൽ",
+   "language": "Malayalam",
+   "languageNative": "മലയാളം",
+   "languageCode": "mal",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2015 The Free Bible Foundation",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/mal2015_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31098
+   },
+   "path": "translations/mal2015",
+   "knownGaps": []
+  },
+  {
+   "id": "mar",
+   "title": "इंडियन रीवाइज्ड वर्जन (IRV) - मराठी",
+   "language": "Marathi",
+   "languageNative": "मराठी",
+   "languageCode": "mar",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2017, 2019 Bridge Connectivity Solutions",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/mar_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31087
+   },
+   "path": "translations/mar",
+   "knownGaps": []
+  },
+  {
+   "id": "npiulb",
+   "title": "पवित्र बाइबल",
+   "language": "Nepali",
+   "languageNative": "नेपाली",
+   "languageCode": "npi",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2019 Door43 World Missions Community",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/npiulb_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31102
+   },
+   "path": "translations/npiulb",
+   "knownGaps": []
+  },
+  {
+   "id": "polubg",
+   "title": "Święta Biblia",
+   "language": "Polish",
+   "languageNative": "Polskie",
+   "languageCode": "pol",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2018 Fundacja Wrota Nadziei",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/polubg_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31102
+   },
+   "path": "translations/polubg",
+   "knownGaps": []
+  },
+  {
+   "id": "porbr2018",
+   "title": "Bíblia Livre",
+   "language": "Portuguese",
+   "languageNative": "Português",
+   "languageCode": "por",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2018 Diego Santos, Mario Sérgio, e Marco Teles",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/porbr2018_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31102
+   },
+   "path": "translations/porbr2018",
+   "knownGaps": []
+  },
+  {
+   "id": "ron1924",
+   "title": "Библия Думитру Корнилеску 1924 (БДК)",
+   "language": "Romanian",
+   "languageNative": "Romanian",
+   "languageCode": "ron",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/ron1924_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1188,
+    "verses": 31045
+   },
+   "path": "translations/ron1924",
+   "knownGaps": [
+    {
+     "book": "JHN",
+     "name": "John",
+     "missingChapters": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "russyn",
+   "title": "Синодальный перевод",
+   "language": "Russian",
+   "languageNative": "русский",
+   "languageCode": "rus",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/russyn_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31169
+   },
+   "path": "translations/russyn",
+   "knownGaps": []
+  },
+  {
+   "id": "spapddpt",
+   "title": "Palabra de Dios para ti",
+   "language": "Spanish",
+   "languageNative": "Español",
+   "languageCode": "spa",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2020 Asociacion Biblica Latinoamericana",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/spapddpt_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31081
+   },
+   "path": "translations/spapddpt",
+   "knownGaps": []
+  },
+  {
+   "id": "swhulb",
+   "title": "Biblia Takatifu",
+   "language": "Swahili",
+   "languageNative": "Kiswahili",
+   "languageCode": "swh",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2019 Door43 World Missions Community",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/swhulb_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31101
+   },
+   "path": "translations/swhulb",
+   "knownGaps": []
+  },
+  {
+   "id": "tglulb",
+   "title": "banal na Bibliya",
+   "language": "Tagalog",
+   "languageNative": "Tagalog",
+   "languageCode": "tgl",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2018 Door43 World Missions Community",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/tglulb_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31103
+   },
+   "path": "translations/tglulb",
+   "knownGaps": []
+  },
+  {
+   "id": "tam2017",
+   "title": "இண்டியன் ரிவைஸ்டு வெர்ஸன் (IRV) - தமிழ்",
+   "language": "Tamil",
+   "languageNative": "தமிழ்",
+   "languageCode": "tam",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2017, 2019 Bridge Connectivity Solutions",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/tam2017_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31103
+   },
+   "path": "translations/tam2017",
+   "knownGaps": []
+  },
+  {
+   "id": "tel2017",
+   "title": "ఇండియన్ రివైజ్డ్ వెర్షన్ (IRV) - తెలుగు -2019",
+   "language": "Telugu",
+   "languageNative": "తెలుగు",
+   "languageCode": "tel",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2017, 2019 Bridge Connectivity Solutions",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/tel2017_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31004
+   },
+   "path": "translations/tel2017",
+   "knownGaps": []
+  },
+  {
+   "id": "thaKJV",
+   "title": "พระคัมภีร์ภาษาไทยฉบับ KJV",
+   "language": "Thai",
+   "languageNative": "ไทย",
+   "languageCode": "tha",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2003 Philip Pope",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/thaKJV_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31102
+   },
+   "path": "translations/thaKJV",
+   "knownGaps": []
+  },
+  {
+   "id": "turytc",
+   "title": "Yorumsuz Türkçe Çeviri (YTC)",
+   "language": "Turkish",
+   "languageNative": "Türkçe",
+   "languageCode": "tur",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2023-2025 İsmail Serinken and eBible.org",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/turytc_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31059
+   },
+   "path": "translations/turytc",
+   "knownGaps": []
+  },
+  {
+   "id": "ukr1996",
+   "title": "Біблія",
+   "language": "Ukrainian",
+   "languageNative": "Українська",
+   "languageCode": "ukr",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 1996 Bob Jones University",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/ukr1996_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31082
+   },
+   "path": "translations/ukr1996",
+   "knownGaps": []
+  },
+  {
+   "id": "urd",
+   "title": "इंडियन रिवाइज्ड वर्जन (IRV) उर्दू - 2019",
+   "language": "Urdu",
+   "languageNative": "اردو",
+   "languageCode": "urd",
+   "textDirection": "ltr",
+   "copyright": "Copyright © 2019 Bridge Connectivity Solutions Pvt. Ltd.",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/urd_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31103
+   },
+   "path": "translations/urd",
+   "knownGaps": []
+  },
+  {
+   "id": "vie1934",
+   "title": "Kinh Thánh",
+   "language": "Vietnamese",
+   "languageNative": "Tiếng Việt",
+   "languageCode": "vie",
+   "textDirection": "ltr",
+   "copyright": "public domain",
+   "redistributable": true,
+   "source": "https://ebible.org/Scriptures/vie1934_usfm.zip",
+   "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31102
+   },
+   "path": "translations/vie1934",
+   "knownGaps": []
+  }
+ ],
+ "counts": {
+  "translations": 36,
+  "languages": 32,
+  "verses": 1119230
+ },
+ "knownGaps": {
+  "deuelbbk": [
+   {
+    "book": "MAL",
+    "name": "Malachi",
+    "missingChapters": [
+     4
+    ]
+   }
+  ],
+  "kor": [
+   {
+    "book": "1PE",
+    "name": "1 Peter",
+    "missingChapters": [
+     5
+    ]
+   }
+  ],
+  "ron1924": [
+   {
+    "book": "JHN",
+    "name": "John",
+    "missingChapters": [
+     11
+    ]
+   }
+  ]
+ }
+}
